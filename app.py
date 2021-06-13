@@ -40,7 +40,7 @@ model23 = pickle.load(open('data22model.pkl', 'rb'))
 model24 = pickle.load(open('data23model.pkl', 'rb'))
 model25 = pickle.load(open('data24model.pkl', 'rb'))
 model26 = pickle.load(open('data25model.pkl', 'rb'))
-model27 = pickle.load(open('data26model.pkl', 'rb'))
+model27 = pickle.load(open('data25model.pkl', 'rb'))
 
 @app.route('/',methods=['GET'])
 def Home():
